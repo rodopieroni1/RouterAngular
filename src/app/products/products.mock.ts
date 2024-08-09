@@ -30,3 +30,10 @@ export const productList: Products[] = [
     descripcion: 'perfuma toda la vida',
   },
 ];
+
+export interface Products {
+  id: number | string;
+  name: string;
+  price: number;
+  descripcion: string;
+}
